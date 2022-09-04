@@ -1,36 +1,117 @@
-</DOCTYPE html>
+<!DOCTYPE html>
 <html>
 
 <head>
     <title>Introduce</title>
+    <style>
+        body {
+            background-image: url(sunflower2.jpg);
+            background-size: cover;
+
+        }
+
+        h1 {
+            color: coral;
+            background-color: antiquewhite;
+            text-align: center
+        }
+
+        table {
+
+            position: fixed;
+            top: auto;
+        }
+
+        p {
+            border-color: chocolate;
+            border-style: double;
+            border-width: medium;
+            margin-top: 100px;
+            margin-left: 260px;
+            padding: 100px;
+
+        }
+
+        #p1 {
+            color: blueviolet;
+            font-size: 50px;
+        }
+
+
+        #p2 {
+            color: cornflowerblue;
+            font-size: x-large;
+            border-color: coral;
+        }
+
+        .size {
+            font-size: larger;
+
+        }
+    </style>
+    <link rel="stylesheet"
+        href="https://fonts.googleapis.com/css2?family=Material+Symbols+Outlined:opsz,wght,FILL,GRAD@20..48,100..700,0..1,-50..200" />
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <!-- <link href="https://fonts.googleapis.com/css2?family=Caveat&display=swap" rel="stylesheet"> -->
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Caveat&family=Qwitcher+Grypen:wght@700&display=swap"
+        rel="stylesheet">
+
 </head>
 
 <body>
-    <p>
-    <h1>ブンセイのホームページへ　ようこそ</h1>
-    <table caption="自己紹介" border="1px" width="50%" height="200px">
-        <tr>
-            <th>基本情報</th>
+
+    <h1><span class="material-symbols-outlined">
+            favorite
+        </span>ブンセイのホームページへ　ようこそ</h1>
+
+
+
+    <table caption="自己紹介" border="1px" width:200px>
+        <tr class="color">
+            <th><span style="color:coral">基本情報</span></th>
             <td colspan="4">名前は任文静。
                 <hr>出身地は中国山東省。
                 <hr>誕生日は12月25日。
                 <hr>星座はやぎ座。
             </td>
         </tr>
-        <tr>
-            <th>最近あるある</th>
-            <td><a href="index2.html" target="_blank">食べ物</a>
-                <hr>
-                <a href="index3.html" tarfet="_blank">景色</a>
-                <hr>
-            </td>
-        </tr>
-        <tr>
-            <th>SNS</th>
-            <td>weibo instgram</td>
-        </tr>
     </table>
-    <form>
+
+    <p class="size">
+        最近あるある
+        <br>
+        <a href="index2.html" target="_blank">食べ物</a>
+        <br>
+        <a href="index3.html" tarfet="_blank">景色</a>
+        <br>
+    </p>
+
+
+    <p id="p1"><span style="font-family: 'Caveat', cursive;
+        font-family: 'Qwitcher Grypen', cursive;">
+            sns:weibo instagram</span>
+    </p>
+
+    <p class="size">
+        趣味：水泳、撮影、ドライブ
+    </p>
+
+    <p id="p2">
+        最近聞いている歌曲<br>
+        《想和你》<br>
+        《诀爱》<br>
+        《失忆》<br>
+        《我还记得那天》
+    </p>
+
+
+
+
+    <form action="index.html">
         <input value="Logout" type="submit" style="background:chocolate">
     </form>
 </body>
